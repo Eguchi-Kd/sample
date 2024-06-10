@@ -15,7 +15,7 @@ async function init() {
 
     // GLTFLoaderを使用して3Dモデルを読み込む
     const loader = new THREE.GLTFLoader();
-    loader.load('model.gltf', function(gltf) {
+    loader.load('model.glb', function(gltf) {
         const model = gltf.scene;
         scene.add(model);
 
